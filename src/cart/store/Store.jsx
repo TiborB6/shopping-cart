@@ -16,7 +16,7 @@ export default function Store () {
       <div className="content">
       {productArr.map((item, index) => (
         <Link key={index} to={'/store/' + item.id}>
-          <ProductDisplay data={item}/>
+          <ProductDisplay data={item} />
         </Link>
       ))}
       </div>
