@@ -1,0 +1,9 @@
+.main-content {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) minmax(400px, 2fr);
+
+  h1 {
+    margin: 0px;
+  }
+}

@@ -6,15 +6,19 @@ import './store.scss'
 import { products } from '../products_module/PRODUCTS_Module'
 
 export default function Store () {
+  const productArr = Object.keys(products).map((key) => {
+    return products[key]
+  })
+
   return (
     <>
       <Nav />
       <div className="content">
-        {products.map((item, index) => (
-          <Link key={index} to={item.page}>
-            <ProductDisplay data={item} />
-          </Link>
-        ))}
+      {productArr.map((item, index) => (
+        <Link key={index} to={'/store/' + item.id}>
+          <ProductDisplay data={item}/>
+        </Link>
+      ))}
       </div>
     </>
   )

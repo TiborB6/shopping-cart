@@ -2,26 +2,26 @@ import BigCamel from './img/big-camel.jpg'
 import MediumCamel from './img/medium-camel.jpg'
 import SmallCamel from './img/small-camel.jpg'
 
-const products = [
-  {
+const products = {
+  '001': {
     name: 'Big Camel',
     priceEur: 200,
     img: BigCamel,
-    page: '/'
+    id: '001'
   },
-  {
+  '002': {
     name: 'Medium Camel',
     priceEur: 150,
     img: MediumCamel,
-    page: '/big-camel'
+    id: '002'
   },
-  {
+  '003': {
     name: 'Small Camel',
     priceEur: 100,
     img: SmallCamel,
-    page: '/big-camel'
+    id: '003'
   }
-]
+}
 
 export {
   products

@@ -8,7 +8,7 @@ export default function Nav () {
     <div className="navbar">
       <div className="logo">
         <img src={GitHub} alt="<GitHub Logo>" />
-        <a href="">GitHub</a>
+        <a href="https://github.com/TiborB6/shopping-cart">GitHub</a>
       </div>
       <div className="links">
         <Link to="/">Home</Link>
