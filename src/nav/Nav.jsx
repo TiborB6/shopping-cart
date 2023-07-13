@@ -13,7 +13,7 @@ export default function Nav () {
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/store">Store</Link>
-        {/* Cart Component */}
+        <Link to="/cart">Cart</Link>
       </div>
     </div>
   )

@@ -1,4 +1,10 @@
 .navbar {
+  position: fixed;
+
+  top: 0px;
+  left: 0px;
+  right: 0px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,9 +13,13 @@
 
   box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   
-  background: none;
+  background: rgba(120, 53, 15, 0.5);
 
+  border-bottom-style: solid;
+  border-color: black;
+  border-width: 1px;
 
+  height: 30px;
   a:hover {
     font-weight: 700;
   }

@@ -1,9 +1,9 @@
 import React from 'react'
+import Nav from '../../nav/Nav'
 import { Link } from 'react-router-dom'
-import Nav from '../nav/Nav'
 import ProductDisplay from './components/product-display/Product-Display'
 import './store.scss'
-import { products } from '../products_module/PRODUCTS_Module'
+import { products } from '../../products_module/PRODUCTS_Module'
 
 export default function Store () {
   const productArr = Object.keys(products).map((key) => {

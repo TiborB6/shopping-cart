@@ -1,8 +1,8 @@
 import React from 'react'
-import Nav from '../../../nav/Nav'
+import Nav from '../../../../nav/Nav'
 import PropTypes from 'prop-types'
 import { useParams } from 'react-router-dom'
-import { products } from '../../../products_module/PRODUCTS_Module'
+import { products } from '../../../../products_module/PRODUCTS_Module'
 import './product-page.scss'
 
 export default function ProductPage () {
