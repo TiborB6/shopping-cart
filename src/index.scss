@@ -1,13 +1,20 @@
-:root {
-  --background-color: rgb(39, 39, 42);
-  --secondary-color: #a1a1aa;
-  --font-color: white;
-}
-
 body {
   margin: 0px;
   width: 100vw;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 20px;
 
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+  transition: 0.1s ease-in-out;
+}
+
+
+a:visited {
+  text-decoration: none;
+  color: black;
 }
